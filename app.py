@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 # --- 1. 데이터 로드 및 전처리 ---
 # CSV 파일 경로를 정의합니다.
-file_path = '/content/행정안전부_착한가격업소 현황_20260331.csv'
+file_path = '행정안전부_착한가격업소 현황_20260331.csv'
 
 try:
     # CSV 파일을 CP949 인코딩으로 읽어 데이터프레임(df)으로 저장합니다.
